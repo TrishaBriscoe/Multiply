@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         
         answerLabel.text = "\(result)"
         
-        if (result %2==0) {
+     
             
             
         }
@@ -44,6 +44,6 @@ class ViewController: UIViewController {
     
     
 
-}
+
 
 
