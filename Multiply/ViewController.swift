@@ -23,8 +23,16 @@ class ViewController: UIViewController {
     
     @IBAction func calculateWhenPressed(_ sender: UIButton) {
         //MVP - Trisha
+        var result = Int(number1TextField.text!)! * Int(number2TextField.text!)!
         
+        answerLabel.text = "\(result)"
         
+        if (result %2==0) {
+            
+            
+        }
+
+    
         //Stretch 2 & 3 - Katherine
         
         
@@ -37,4 +45,5 @@ class ViewController: UIViewController {
     
 
 }
+
 
