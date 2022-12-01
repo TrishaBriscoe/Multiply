@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "17-works-of-art-that-werent-meant-to-be-funny-but-2-30325-1486050395-0_dblbig.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
