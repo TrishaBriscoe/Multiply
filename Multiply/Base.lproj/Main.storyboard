@@ -75,6 +75,7 @@
                     </view>
                     <connections>
                         <outlet property="answerLabel" destination="bH6-jr-F61" id="2dC-C8-RBI"/>
+                        <outlet property="imageView" destination="X9o-9i-yep" id="dqx-Iv-fOz"/>
                         <outlet property="number1TextField" destination="Z9F-Tq-Cfe" id="FNa-sW-GXe"/>
                         <outlet property="number2TextField" destination="Ain-ha-dox" id="sWf-Nc-wl5"/>
                     </connections>

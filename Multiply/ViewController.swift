@@ -13,7 +13,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var number1TextField: UITextField!
     @IBOutlet weak var answerLabel: UILabel!
     
-   
+    @IBOutlet weak var imageView: UIImageView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,21 +28,27 @@ class ViewController: UIViewController {
         
         answerLabel.text = "\(result)"
         
-     
-            
-            
-        }
 
     
         //Stretch 2 & 3 - Katherine
-        
-        
-        //Stretch 1 - Ethan
+    
+        if result == 64 {
+            imageView.image = UIImage (named: "luigi")
+        } else {
+            if (result % 2 == 0) {
+                imageView.image = UIImage (named: "camel toe")
+            } else {
+                imageView.image = UIImage (named: "bobby")
+            }
+        }
         
     }
+        //Stretch 1 - Ethan
+        
     
     
     
+}
     
 
 
