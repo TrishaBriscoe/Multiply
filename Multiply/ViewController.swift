@@ -41,12 +41,13 @@ class ViewController: UIViewController {
                 imageView.image = UIImage (named: "bobby")
             }
         }
-        
-    }
         //Stretch 1 - Ethan
-        
-    
-    
+    number1TextField.resignFirstResponder()
+   number2TextField.resignFirstResponder()
+    }
+
+
+}
 
     
 
